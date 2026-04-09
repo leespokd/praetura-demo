@@ -22,4 +22,5 @@ Trade offs/more time to work on
 9. Add additional decision rules, such as prevent request for a loan of zero, or max loan allowed
 10. Add logic to prevent duplicate decision log entries being added to a loan application
 11. In production, I'd add a solution level Dockerfile which includes all projects
+12. I'd also add db indexes on commonly used properties in where clauses where applicable
     
